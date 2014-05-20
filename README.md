@@ -1,6 +1,6 @@
 # Sample CSV-to-XML Conversion Tool
 
-The is a text-based utility, written in Java, which converts a small subset of data from a sample comma-separated value (CSV) format, to inBloom-compliant XML, suitable for upload to the inBloom data store via the bulk data ingestion mechanism.
+The is a text-based utility, written in Java, which converts a small subset of data from a sample comma-separated value (CSV) format, to compliant XML, suitable for upload to the Secure Data Service via the bulk data ingestion mechanism.
 
 ## How to build and run the CSV2EDFI Converter
 
@@ -38,3 +38,6 @@ Note: You are expected to have a current version of the Java JDK and Eclipse on 
 6.	The program will run the default sample data, generating students, parents and student-relationships, in an XML Interchange file if run at this time.  In order to run, import the project as a maven project into eclipse.  Right click on the CSV2XMLTransformer.java source file and select ‘Run… As Java Application.’
 
 7.	In order to generate different XML files, it is necessary to change the input/output files.  That is done in the CSV2XMLTransformer.java source file around lines 78 to 87.  The details on how to form the CSV files, as well as some additional information about this utility, are contained in the CSV2XMLTransformer_Supplemental.docx document.
+
+## Licensing
+CSV2XML is licensed under the Apache License, Version 2.0. See LICENSE-2.0.txt for full license text.
